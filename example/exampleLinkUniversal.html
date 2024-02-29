@@ -1,0 +1,20 @@
+data:text/html,
+<!-- Most Browsers -->
+<body>
+  <script>
+    const scr = document.createElement('script');
+    scr.src = 'https://cdn.jsdelivr.net/gh/FancyBoiL1/Completely-Dynamic-Website@master/loader.js';
+    document.getElementsByTagName("body")[0].appendChild(scr);
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://cdn.jsdelivr.net/gh/FancyBoiL1/Completely-Dynamic-Website@master/loader.css';
+    document.getElementsByTagName("head")[0].appendChild(css);
+  </script>
+  <script defer>
+    fetch('https://cdn.jsdelivr.net/gh/FancyBoiL1/Completely-Dynamic-Website@master/example/dataURL.html')
+    .then((result) => result.text())
+    .then((link) => {
+      createIframe(link);
+    });
+  </script>
+</body>
