@@ -5,11 +5,11 @@ data:text/html,
     .then((res) => res.text())
     .then((html) => {  
       document.getElementById("examplecontainer").innerHTML = html;
-      // Always load page first ^
+      /* Always load page first ^ */
       const scr = document.createElement('script');
       scr.src = 'https://cdn.jsdelivr.net/gh/FancyBoiL1/Completely-Dynamic-Website@master/example/main.js';
       document.getElementsByTagName("head")[0].appendChild(scr);
-      // Followed by any scripts you need for the page.
+      /* Then load any necessary scripts.*/
     });
 </script>
 <!-- This is the url that is loaded using the loader -->
