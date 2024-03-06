@@ -17,7 +17,7 @@ Cons:
 4. Some functions of creating a website won't be possible without an annoying amount of work.
 
 # Using this repository to make a website.
-> Check out the [example](example/) file in the repository to see an example using this repository.
+> Check out the [example](example/) file in the repository.
 
 General Tips:
 1. Make all imports and links use a CDN or some other form of non-local directory.
