@@ -26,11 +26,3 @@ function createIframe(dataUrl){
   }, 20);
 }
 // Used to load the actual page and allow navigation. Without using an iframe, browsers like mozilla firefox and chrome will block the unsafe use of data urls.
-
-function loadJScript(location){
-  let script = document.createElement('script');
-  script.src = location;
-  document.body.appendChild(script);
-}
-// Used to load scripts from internet sources in a data url. Since there is no local filepath normally <script src='THING'> would be used.
-// However, when importing HTML using fetch later on, scripts will not load properly. Thus, this a required step.
