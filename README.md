@@ -25,7 +25,14 @@ General Tips:
 3. This was made to use Javascript, CSS and HTML. I have not tested other languages.
 
 Actual Tutorial:
-1. Create an HTML file, such as the one [here](example/main.html). DO NOT link any Javascript here, it will not load correctly.
-2. Create any CSS files you would like, and create JS files that would have been in your HTML file. (Examples: [CSS](example/main.css), [JS](example/main.js))
-3. Create your "backend" I guess. This will be a file with whatever extension you would like. Start the file with a data url, specifically: *data:text/html,* followed by a basic html script tag follwed by a div with a rememberable id. Inside of the script tag you will fetch the html file you created, load it to the div, then add the JS file you created using javascript and then add it to the head tag. No '<!DOCTYPE...' required, and no head or body tag has to be added either. (Example: [The Url](example/dataURL.html))
-4. Then to create your final link, make a file with whatever extension, start the file with the same data url, create a body tag, stick a script tag that gets the [loader.js](loader.js) script through either javascript or through inline. Then follow that script tag with another script tag that is has defer, and fetch the dataURL and use the createIframe() function to load the fetched link. (Example: [Final Product for Chrome](example/finalProduct/exampleLinkChrome.html), [Final Product for Anything Else](example/finalProduct/exampleLinkUniversal.html))
+1. Create an HTML file, such as the one shown in the [image](example/main.html). DO NOT link any Javascript here, it will not load correctly.
+![image](https://github.com/FancyBoiL1/Completely-Dynamic-Website/assets/117115118/5a9ef00a-3569-472a-9744-5fef0384ec7b)
+
+3. Create any CSS files you would like, and create JS files that would have been in your HTML file. (Examples: [CSS](example/main.css), [JS](example/main.js))
+4. Create your "backend" I guess. This will be a file with whatever extension you would like. Start the file with a data url, specifically: *data:text/html,* followed by a basic html script tag follwed by a div with a rememberable id. Inside of the script tag you will fetch the html file you created, load it to the div, then add the JS file you created using javascript and then add it to the head tag. No '<!DOCTYPE...' required, and no head or body tag has to be added either. (Example: [The Url](example/dataURL.html))
+![image](https://github.com/FancyBoiL1/Completely-Dynamic-Website/assets/117115118/b5a8956e-3e63-42c1-b673-bdda01eed6eb)
+
+5. Then to create your final link, make a file with whatever extension, start the file with the same data url, create a body tag, stick a script tag that gets the [loader.js](loader.js) script through either javascript or through inline. Then follow that script tag with another script tag that is has defer, and fetch the dataURL and use the createIframe() function to load the fetched link. (Example: [Final Product for Chrome](example/finalProduct/exampleLinkChrome.html), [Final Product for Anything Else](example/finalProduct/exampleLinkUniversal.html))
+![image](https://github.com/FancyBoiL1/Completely-Dynamic-Website/assets/117115118/e8565f23-67fe-4ec1-88b3-eaa6c8b5188a)
+
+By FancyBoiL1.
