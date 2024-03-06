@@ -1,4 +1,4 @@
-# Completely Dynamic Website
+# Hostless Website
 
 > This repository uses JSDELIVR and Data URLs to create a (about 80-90%) totally dynamic website. 
 
