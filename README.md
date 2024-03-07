@@ -7,7 +7,7 @@ Before teaching you how to do this on your own, we must go over the pros and con
 Pros:
 1. No hosting required. (Honestly best Pro)
 2. Not traceable if using a disposable account (I hate getting doxxed by angry discord mods)
-3. If a different CDN is used, you could make a completely private website that is only accessable by people with the link, without using a IP address or annoying login system.
+3. If a different CDN is used, you could make a completely private website that is only accessible by people with the link, without using a IP address or annoying login system.
 4. A ton of web security knowledge is not needed to make a "secret" site.
 
 Cons:
