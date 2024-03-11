@@ -1,7 +1,7 @@
 function createIframe(dataUrl){
   const css = document.createElement('link');
   css.rel = 'stylesheet';
-  css.href = 'https://cdn.jsdelivr.net/gh/FancyBoiL1/Completely-Dynamic-Website@master/loader.css';
+  css.href = 'https://cdn.jsdelivr.net/gh/FancyBoiL1/Hostless-Website@master/loader.css';
   /* CSS to remove annoying iframe border.*/
   var iframe = document.createElement('iframe');   
   iframe.sandbox.add('allow-top-navigation');
