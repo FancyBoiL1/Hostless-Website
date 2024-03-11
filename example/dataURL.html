@@ -1,13 +1,13 @@
 data:text/html,
 <!-- If you wish to use scripts, you must load them using javascript, inline src javascript will be blocked by some browsers. -->
 <script>
-  fetch("https://cdn.jsdelivr.net/gh/FancyBoiL1/Completely-Dynamic-Website@master/example/main.html")
+  fetch("https://cdn.jsdelivr.net/gh/FancyBoiL1/Hostless-Website@master/example/main.html")
     .then((res) => res.text())
     .then((html) => {  
       document.getElementById("examplecontainer").innerHTML = html;
       /* Always load page first ^ */
       const scr = document.createElement('script');
-      scr.src = 'https://cdn.jsdelivr.net/gh/FancyBoiL1/Completely-Dynamic-Website@master/example/main.js';
+      scr.src = 'https://cdn.jsdelivr.net/gh/FancyBoiL1/Hostless-Website@master/example/main.js';
       document.getElementsByTagName("head")[0].appendChild(scr);
       /* Then load any necessary scripts.*/
     });
