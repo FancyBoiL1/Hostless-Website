@@ -32,7 +32,7 @@ Actual Tutorial:
 ![image](https://github.com/FancyBoiL1/Completely-Dynamic-Website/assets/117115118/b5a8956e-3e63-42c1-b673-bdda01eed6eb)
 
 5. Then to create your final link, make a file with whatever extension, start the file with the same data url, create a body tag, stick a script tag that gets the [loader.js](loader.js) script through either javascript or through inline. Then follow that script tag with another script tag that has defer, and fetch the dataURL and use the createIframe() function to load the fetched link. (Example: [Final Product for Chrome](example/finalProduct/exampleLinkChrome.html), [Final Product for Anything Else](example/finalProduct/exampleLinkUniversal.html))
-![image](https://github.com/FancyBoiL1/Completely-Dynamic-Website/assets/117115118/e8565f23-67fe-4ec1-88b3-eaa6c8b5188a)
+![image](https://github.com/FancyBoiL1/Hostless-Website/assets/117115118/595caae4-56bc-44f9-984e-7c9a1efebe6a)
 <br>
 <br>
 All work was created by yours truly, FancyBoiL1.
